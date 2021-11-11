@@ -3,3 +3,30 @@ img {
     height: 150px;
     width: 150px;
 }
+
+header {
+    background-color: blue;
+}
+
+main {
+    background-color: violet;
+}
+
+footer {
+    background-color: yellow;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.padre {
+    display: flex;
+
+    flex-wrap: nowrap;
+}
+
+.hijo {
+    padding: 20px;
+    margin: 15px;
+}
